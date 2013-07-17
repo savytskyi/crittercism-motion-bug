@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (1.3.1)
+  - ColorArt (0.1.1)
+  - CrittercismSDK (4.0.2)
+  - NanoStore (2.6.4)
+  - PKRevealController (1.0b2)
+  - Reachability (3.1.0)
+  - SDSegmentedControl (1.0.2)
+  - SIAlertView (1.2)
+  - SVProgressHUD (0.9)
+  - UIImage-Resize (0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ColorArt
+  - CrittercismSDK
+  - NanoStore
+  - NanoStore (~> 2.6.0)
+  - PKRevealController
+  - Reachability
+  - SDSegmentedControl
+  - SIAlertView (from `https://github.com/savytskyi/SIAlertView.git`)
+  - SVProgressHUD
+  - UIImage-Resize
+
+EXTERNAL SOURCES:
+  SIAlertView:
+    :git: https://github.com/savytskyi/SIAlertView.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  ColorArt: 1f039db1ce82ca4a0d8bcf2686586e37027ac84e
+  CrittercismSDK: 309daf47347729372d8a059f6a161c55e6ab2e23
+  NanoStore: 73d29e30e1e7f253f719c6ad1d60181ebcf1b5be
+  PKRevealController: 631e6a3db833a0c660203c2dba0963109549ec8a
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  SDSegmentedControl: cf631be7a6abec6f7fb937ba342365d494dbfdcb
+  SIAlertView: fd188f66278761f4ff069f517c3deb2be16ecdcc
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  UIImage-Resize: 8372efb7144f060a3482c8915388829787fe4b7c
+
+COCOAPODS: 0.22.2

@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/ColorArt" "${PODS_ROOT}/Headers/CrittercismSDK" "${PODS_ROOT}/Headers/NanoStore" "${PODS_ROOT}/Headers/PKRevealController" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/SDSegmentedControl" "${PODS_ROOT}/Headers/SIAlertView" "${PODS_ROOT}/Headers/SVProgressHUD" "${PODS_ROOT}/Headers/UIImage-Resize"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/CrittercismSDK/CrittercismSDK"
+OTHER_LDFLAGS = -ObjC -lCrittercism_v4_0_2 -lsqlite3 -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods
